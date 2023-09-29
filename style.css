@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-padding-top: 4.5rem;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}.navlink{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    
+    margin-left: 68%;
+    margin-top: 15px;
+}
+.navlink li{
+    list-style-type: none;
+    padding: 10px;
+}
+.navlink li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    text-transform: capitalize;
+}
+li a.active,li a:hover{
+    color: black;
+}
+#check{
+    display: none;
+}
+.check-button{
+    margin-top: 20px;
+    display: none;
+    font-size: 25px;
+    border: solid gray 3px;
+    padding: 5px 7px 2px;
+}
+#one{
+    width: 100%;
+    height: auto;
+}
+.massthead{
+    background-image: url(images/home-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: 0;
+}
+.box-1{
+    width: 40%;
+    height: 30vh;
+    margin-left: 150px;
+    margin-top: 200px;
+    position: absolute;
+}
+.box-1 h1{
+    margin-left: 37%;
+    margin-top: 30px;
+    color: inherit;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: inherit;
+}
+.box-1 p{
+    font-size: 17px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 25px;
+}
+.box-1 button{
+    padding: 8px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 270px;
+    background-color: rgb(3, 115, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.box-1 button:hover{
+    background-color: blue;
+}
+main{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    border: solid gray 1px;
+}
+#two{
+    width: 100%;
+    height: auto;
+}
+.about{
+    width: 100%;
+    display: flex;
+    
+}
+.box-2{
+    width: 50%;
+    height: 70vh;
+    border: solid gray 1px;
+}
+.box-2 img{
+    width: 80%;
+    margin-left: 10%;
+    height: 60vh;
+    margin-top: 5vh;
+}
+.box-3{
+    width: 50%;
+    border: solid gray 1px;
+}
+.box-4{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #17a2b8!important;
+    height: 50vh;
+    border-radius: 10px;
+}
+.box-4 h1{
+    margin-top: 100px;
+    font-family: inherit;
+    margin-left: 50px;
+    position: absolute;
+}
+.box-4 p{
+    margin-top: 150px;
+    width: 25%;
+    line-height: 30px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 19px;
+}
+.box-4 button{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 270px;
+    margin-left: 50px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+}
+.box-4 button:hover{
+    background-color: blue;
+}
+#three{
+    width: 100%;
+    height: auto;
+    border: gray solid 1px;
+}
+.facility{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.facility img{
+    width: 30%;
+    margin-left: 0;
+}
+.facility h1{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+#four{
+    width: 100%;
+    height: auto;
+
+}
+.coffee-varity{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.box-5{
+    width: 25%;
+    height: 30vh;
+    border: solid gray 1px;
+}
+.box-5 img{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box-5 h3{
+    width: 100%;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.box-5 p{
+    width: 75%;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#five{
+    width: 100%;
+    border: solid gray 1px;
+    height: auto;
+    
+}
+.menu img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 30%;
+}
+.menu h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+}
+#six{
+    width: 100%;
+    height: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu1{
+    border: solid gray 1px;
+}
+.menu1 img{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.menu1 h1{
+    margin-left: 10px;
+}
+#seven{
+    width: 100%;
+    height: auto;
+    border: solid gray 1px;
+}
+.gallery img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 30%;
+}
+.gallery h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+#eight{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery1 img{
+    margin-left: 10px; 
+    width: 370px;
+    height: 300px;
+}
+.gallery1{
+    border: solid gray 1px;
+}
+#nine{
+    width: 100%;
+    height: auto;
+}
+.team img{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.team h1{
+    margin-left: 10px;
+    font-size: 28px;
+}
+#ten{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.team1{
+    border: solid gray 1px;
+}
+.team1 img{
+    width: 380px;
+    height: 300px;
+    margin-left: 10px;
+    
+}
+.team1 h1{
+    margin-left: 10px;
+}
+footer{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+#leven{
+    width: 100%;
+    height: auto;
+    border: solid gray 1px;
+}
+.contact img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 30%;
+}
+.contact h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#towel{
+    width: 100%;
+    height: auto;
+    border: solid gray 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-pic{
+    width: 100%;
+    border: solid gray 1px;
+}
+.contact-pic img{
+    width: 500px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.form{
+    border: solid rgb(5, 5, 5) 2px;
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+}
+.form h1{
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.form .e1{
+    padding: 10px 10px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: solid black 2px;
+}
+.form .e2{
+    padding: 10px 10px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: solid black 2px;
+}
+.form .e3{
+    padding: 10px 10px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: solid black 2px;
+}
+.form button{
+    margin: 50px;
+    padding: 10px 30px;
+    margin-left: 180px;
+    border: none;
+    background-color: rgba(136, 86, 22, 0.919);
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+#thirteen{
+    width: 100%;
+    height: auto;
+    border:  solid gray 1px;
+}
+.contacticons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+}
+.icon1{
+    width: 100%;
+    height: auto;
+    border: solid gray 1px;
+}
+.icon1 li{
+    list-style-type: none;
+}
+.m1{
+    font-size: 30px;
+    margin-top: 5px;
+   
+    color: rgb(9, 212, 234);
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+}
+.m1 i{
+    background-color: black;
+    border: solid black 15px;
+    border-radius: 50px;
+}
+.icon1 h1,h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.copy{
+    margin-top: 0px;
+    
+    margin-left: 500px;
+    width: 50%;
+    height: 50px;
+}
+.line{
+    border: solid black 1px;
+    margin-left: 0;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+.copy p{
+    font-size: 20px;
+}
+.design{
+    color: brown;
+}
+@media(max-width:580px){
+          .check-button{
+            display: block;
+            margin-top: 15px;
+            margin-left: 330px;
+            position: absolute;
+          }
+          header{
+            width: 100%;
+            height: auto;
+            
+          }
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+          .navlink{
+            display: none;
+            margin: 0;
+            margin-top: 70px;
+            width: 100%;
+            z-index: 10;
+            height: 250px;
+            position: absolute;
+            background-color: white;
+          }
+          #check{
+            display: none;
+          }
+          #check:checked~.navlink{
+            display: initial;
+    }
+    .navlink li:hover{
+           background-color: antiquewhite;
+           
+    }
+    #one{
+        width: 100%;
+        height: auto;
+    }
+    .massthead{
+        width: 100%;
+        height: 80vh;
+
+    }
+    .box-1 {
+        margin-left: 20px;
+        width: 80%;
+    }
+    .box-1 h1{
+        margin-left: 60px;
+    }
+    .box-1 button{
+        margin-left: 100px;
+    }
+    main{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0px;
+        height: auto;
+    }
+    #two{
+        width: 100%;
+        height: auto;
+    }
+    
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 105vh;
+        border: 1px solid gray;
+    }
+    .box-2{
+        width: 100%;
+        height: 50vh;
+    }
+    .box-2 img{
+        margin-top: -30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .box-3{
+        width: 90%;
+        margin-left: 5%;
+        border: none;
+        margin-top: -165px;
+        height: 30vh;
+    }
+    .box-4{
+        width: 100%;
+        margin: 0;
+    }
+    .box-4 h1{
+        margin-top: 20px;
+    }
+    .box-4 p{
+        width: 50%;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    #three{
+        width: 100%;
+        height: auto;
+    }
+    .facility{
+        width: 100%;
+        height: 20vh;
+    }
+    .facility img{
+        width: 90%;
+    }
+    .facility h1{
+        margin-top: 10px;
+    }
+    #four{
+        width: 100%;
+        height: auto;
+    }
+    .coffee-varity{
+        width: 100%;
+        height: 120vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box-5{
+        width: 100%;
+        height: 30vh;
+        
+    }
+    #five{
+        width: 100%;
+        height: auto;
+    }
+    .menu img{
+        width: 90%;
+    }
+    .menu h1{
+        margin-top: 10px;
+    }
+    #six{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;    
+        }
+        .menu1 img{
+            width: 100%;
+            margin-left: 0px;
+        }
+    #seven{
+            width: 100%;
+            height: auto;
+            
+        }
+        .gallery img{
+            width: 90%;
+        }
+    #eight{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        
+       }
+       .gallery1 img{
+        width: 96%;
+        height: 300px;
+       }
+       #nine{
+        width: 100%;
+        height: auto;
+    }
+    .team img{
+        width: 90%;
+    }
+    #ten{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+    .team1 img{
+        width: 96%;
+        height: 300px;
+    }
+    footer{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 0;
+        border: solid 1px gray;
+    }
+    #leven{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact img{
+        width: 90%;
+    }
+    #towel{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        border: solid 1px gray;
+    }
+    .contact-pic{
+        border: solid gray 1px;
+        width: 100%;
+        height: 50vh;
+    }
+    .contact-pic img{
+        width: 90%;
+        height: 150vh;
+        margin-top: -50vh;
+    }
+    .form{
+        width: 80%;
+        
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    .form h1{
+        margin-left: 50px;
+    }
+    .form .e1,.form .e2,.form .e3{
+        width: 60%;
+        margin-left: 50px;
+    }
+    .form button{
+        margin-left: 50px;
+        width: 160px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    #thirteen{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        
+    }
+    .contacticons{
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+    .icon1{
+        margin-top: 0;
+        height: auto;
+        
+    }
+    .copy{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 50px;
+        width: 90%;
+       
+    }
+    .line{
+        margin-top: 0px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .copy p{
+        width: 90%;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 0px;
+
+    }
+}
